@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    
+
+    <title>Quickbase Demo</title>
+</head>
+
+<center>
+<div>
+    <h1>Field Builder</h1>
+    <br>
+    <br>
+    <label>Label:<input id="label" type="text"></label>
+    <br>
+    <br>
+        <label>Type: Multi-Select:</label>
+        <input type="checkbox" id="userCheckBox">
+        <label>A Value is required</labeL>
+        <br>
+        <br>
+        <label>
+            Default Value:
+            <input id="defaultchoice" type="text">
+        </label>
+        <br>
+        <br>
+    <label>
+        Choices:
+        <button id="addButton">Add Option</button>
+        <input type="text" id="inp">
+        <br>
+        <br>
+        <select
+            id="currentList" multiple>
+        </select>
+        <br>
+        <br>
+        <button id="deleteButton">Remove Selected Option</button>
+    </label>
+    <br>
+    <br>
+    <label>Order:
+        <button id="sortButton">Display choices in alphabetical</button>
+    </label>
+    <br>
+    <br>
+    <label>
+        <button id="saveChanges">Save Changes</button> 
+        <button id="clearChanges">Clear</button>
+    </label>
+</div>
+</center>
+
+
+<script src="js/main.js"></script> 
+</body>
+</html>
